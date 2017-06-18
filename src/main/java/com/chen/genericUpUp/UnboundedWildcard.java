@@ -1,6 +1,7 @@
 package main.java.com.chen.genericUpUp;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -31,6 +32,8 @@ public class UnboundedWildcard {
 		assign2(new HashMap());
 		assign3(new HashMap());
 		
+		System.out.println(String[].class);
+		System.out.println(int.class);
 		
 	}
 	
